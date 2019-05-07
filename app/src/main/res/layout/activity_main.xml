@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextViewCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Funcionário"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#0B0A0A"/>
+
+    <TextView
+        android:id="@+id/TextViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:layout_marginTop="33dp"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:textColor="#0B0A0A"/>
+
+    <TextView
+    android:id="@+id/TextViewEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Email"
+    android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textColor="#0B0A0A"/>
+
+    <TextView
+        android:id="@+id/TextViewEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:inputType="textPostalAddress"
+        android:textColor="#0B0A0A"/>
+
+    <TextView
+        android:id="@+id/TextViewProfissao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profissão"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextProfissao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textColor="#0B0A0A"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
